@@ -28,7 +28,7 @@
 		},
 		{
 			"key": "paymentOtp",
-			"value": "",
+			"value": "123456",
 			"type": "default",
 			"enabled": true
 		}
