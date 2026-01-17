@@ -1,0 +1,10 @@
+{
+  "name": "bosta-postman-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "newman run postman/bosta-api-collection.json -e postman/bosta-stg-env.json --reporters cli,junit --reporter-junit-export newman-report.xml"
+  },
+  "dependencies": {
+    "newman": "^6.1.2"
+  }
+}
